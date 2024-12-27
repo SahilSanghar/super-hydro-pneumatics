@@ -1,5 +1,5 @@
 "use client";
-import Map1 from '@/components/map';
+import Map1 from '@/components/Map';
 import Image from 'next/image'
 import React, { useState } from 'react'
 
