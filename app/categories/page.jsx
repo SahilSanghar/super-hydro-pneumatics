@@ -46,13 +46,13 @@ const CategoryPage = () => {
             {categories.map((cat) => (
               <li key={cat.id}>
                 <div className="card lg:card-side" style={{ backgroundColor: '#2c2c2c' }}>
-                  <figure>
+                  {/* <figure>
                     <img
                       src={cat.image || "https://via.placeholder.com/150"}
                       alt={cat.name}
                       className='h-64 w-[420px] object-cover -ms-14'
                     />
-                  </figure>
+                  </figure> */}
                   <div className="card-body text-white">
                     <h2 className="card-title">{cat.name}</h2>
                     <p>Explore the amazing products in this category.</p>

@@ -36,12 +36,12 @@ const CategoryPage = () => {
               </figure>
               <div className="card-body text-white">
                 <h2 className="card-title">{product.name}</h2>
-                <p>Click below to view details.</p>
+                {/* <p>Click below to view details.</p>
                 <div className="card-actions justify-end">
                   <Link href={`/categories/${categoryId}/${product.id}`}>
                     <button className="btn btn-[#171717] hover:text-black hover:bg-white">View Details</button>
                   </Link>
-                </div>
+                </div> */}
               </div>
             </div>
           </li>

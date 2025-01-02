@@ -4,9 +4,17 @@ import { useState, useEffect } from "react";
 import { HiOutlineArrowSmallLeft, HiOutlineArrowSmallRight } from "react-icons/hi2";
 import { motion, AnimatePresence } from "framer-motion";
 import { slides } from "@/data/Carousel";
+import Link from 'next/link';
+import Image from 'next/image';
+import { useRouter } from 'next/navigation';
 
 const Hero = () => {
+    const router = useRouter();
     const [currentIndex, setCurrentIndex] = useState(0);
+
+    const handleRedirect = () => {
+      router.push("/categories");
+    };
   
     const handlePrevious = () => {
       setCurrentIndex((prevIndex) =>
@@ -66,7 +74,7 @@ return (
                     >
                       {slide.description}
                     </motion.p>
-                    <button className="relative rounded-lg overflow-hidden mt-5 px-12 py-3 font-semibold bg-white text-black transition duration-1000 ease-in-out hover:text-white group">
+                    <button className="relative rounded-lg overflow-hidden mt-5 px-12 py-3 font-semibold bg-white text-black transition duration-1000 ease-in-out hover:text-white group" onClick={handleRedirect}>
                       <span className="absolute -inset-1 bg-black translate-x-full transition-transform duration-1000 ease-in-out group-hover:translate-x-0"></span>
                       <span className="relative uppercase font-light">View all products</span>
                     </button>
@@ -103,6 +111,11 @@ return (
       >
         <HiOutlineArrowSmallRight size={24} className='text-[#767676] ' />
       </button>
+      <div className="fixed top-[72%] right-6">
+        <Link href="https://wa.me/+919324026405" target='_blank'>
+          <Image src='/whatsapp.png' alt='Whatsapp' width={100} height={100} />
+        </Link>
+      </div>
     </div>
 )
 }

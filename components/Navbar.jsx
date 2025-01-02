@@ -21,10 +21,11 @@ const Navbar = () => {
 
   return (
     <div className='flex justify-between max-w-[100%] px-24 py-5 bg-black'>
-      <div>
+      <div className='flex items-center space-x-1.5 text-3xl'>
         <Link href="/" passHref>
-          <Image src='/logo.jpg' alt='Logo' height={200} width={70} className='cursor-pointer rounded-full' />
+          <Image src='/logo.jpg' alt='Logo' height={180} width={60} className='cursor-pointer rounded-full' />
         </Link>
+        <span className="text-white">uper Hydro Pneumatic</span>
       </div>
       <div className="border-[2px] border-[#767676] rounded-full w-11 h-11 p-2.5 cursor-pointer relative z-20">
         <div

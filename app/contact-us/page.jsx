@@ -65,10 +65,9 @@ const Contact = () => {
           <div className="py-5">
             <p className="text-2xl">VISIT US</p>
             <p className="text-lg pt-0.5">
-              Plot No. 39, Sector 20, Om Arcade Ground Floor,
-              <br />
-              Opp. Turbhe, Vashi, Navi Mumbai - 400705,
-              <br />
+              Shop Number 17/18 Sheetal Shagun Industrial,<br />
+              Estate Sativali Road Opposite Mahindra Show Room,<br /> 
+              near Valive Phata, Vasai East,
               Maharashtra, India
             </p>
           </div>

@@ -37,9 +37,9 @@ return (
                 <Link href='https://www.tradeindia.com/truststamp-member/SUPER-HYDRO-PNEUMATIC-10364352/' target='_blank'>
                     <Image src='/f1.svg' alt='Trusted Seller' height={50} width={100} className='cursor-pointer' />
                 </Link>
-                <Link href='https://www.tradeindia.com/tradekhata/catalog-payment/Z0FBQUFBQm1zNFZqSDZOTzh0cm54X2xObFRLNU9FUmxxSEU0dEN0M2NveU4wMzY0SkhRVmdzRDlaeFV1NkNJcml3dk1kQ0N4bXdEZUotSWZNdlJ0WFdsSW9rUmNMRUs5NWc9PQ==/' target='_blank'>
+                {/* <Link href='https://www.tradeindia.com/tradekhata/catalog-payment/Z0FBQUFBQm1zNFZqSDZOTzh0cm54X2xObFRLNU9FUmxxSEU0dEN0M2NveU4wMzY0SkhRVmdzRDlaeFV1NkNJcml3dk1kQ0N4bXdEZUotSWZNdlJ0WFdsSW9rUmNMRUs5NWc9PQ==/' target='_blank'>
                     <Image src='/f2.png' alt='Trusted Seller' height={50} width={100} className='cursor-pointer' />
-                </Link>
+                </Link> */}
             </div>
         </div>
         </div>
