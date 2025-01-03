@@ -11,7 +11,7 @@ const Products = () => {
     };
 
 return (
-    <div className="bg-white text-black">
+    <div className="bg-black text-white">
     <p className="text-center text-5xl py-10">
         We are innovative <br />
         & forward-thinking

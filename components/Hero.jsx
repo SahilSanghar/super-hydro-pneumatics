@@ -38,7 +38,7 @@ const Hero = () => {
 
 return (
     
-    <div className="relative h-[87.5vh] w-full overflow-hidden">
+    <div className="relative h-[87.5vh] w-full overflow-hidden mt-24">
       <AnimatePresence mode="wait">
         {slides.map((slide, index) => (
           currentIndex === index && (
