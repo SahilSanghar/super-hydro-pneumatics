@@ -7,25 +7,48 @@ import { collectionsData } from "@/data/Collection";
 const Collections = () => {
   const router = useRouter();
   const [currentIndex, setCurrentIndex] = useState(0);
-  const itemsVisible = 3; // Number of items to show at once
+  const [itemsVisible, setItemsVisible] = useState(3); // Default to 3 items
 
   const handleNavigation = (path) => {
     router.push(path);
   };
 
   useEffect(() => {
+    const handleResize = () => {
+      if (window.innerWidth < 640) {
+        setItemsVisible(1); // Show 1 item for small screens
+      } else {
+        setItemsVisible(3); // Default to 3 items for larger screens
+      }
+    };
+
+    // Add event listener on mount and check the screen size initially
+    window.addEventListener("resize", handleResize);
+    handleResize();
+
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
+  }, []);
+
+  useEffect(() => {
     const interval = setInterval(() => {
-      setCurrentIndex((prevIndex) =>
-        (prevIndex + 1) % collectionsData.length
-      );
+      setCurrentIndex((prevIndex) => {
+        const nextIndex = prevIndex + 1;
+        if (nextIndex >= collectionsData.length - itemsVisible + 1) {
+          // Stop at the end, no looping back
+          return 0;
+        }
+        return nextIndex;
+      });
     }, 3000); // Automatically move to the next item every 3 seconds
 
     return () => clearInterval(interval);
-  }, []);
+  }, [itemsVisible]);
 
   return (
-    <div className="min-h-screen">
-      <p className="text-5xl text-center py-8">Our Collections</p>
+    <div className="lg:min-h-screen">
+      <p className="max-sm:text-3xl md:text-5xl text-center py-8">Our Collections</p>
       <div className="w-full max-w-7xl mx-auto overflow-hidden">
         <div
           className="flex transition-transform duration-700"
@@ -48,9 +71,9 @@ const Collections = () => {
                   alt={collection.title}
                   width={400} // Consistent Image Size
                   height={400}
-                  className="h-[70vh] object-cover rounded-lg"
+                  className=" lg:h-[70vh] object-cover rounded-lg"
                 />
-                <p className="mt-4 text-3xl font-medium text-center">
+                <p className="mt-4 max-sm:text-xl md:text-3xl font-medium text-center">
                   {collection.title}
                 </p>
               </div>

@@ -53,7 +53,7 @@ return (
               <img
                 src={slide.image}
                 alt={slide.title}
-                className="h-full w-[88%] md:ms-[12%] object-cover"
+                className="h-full sm:w-full md:w-full lg:w-[88%] md:ms-[12%] object-cover"
               />
               <div className="absolute inset-0 bg-black bg-opacity-40">
                 <div className="flex h-full items-center justify-center">
@@ -62,7 +62,7 @@ return (
                       initial={{ y: 20, opacity: 0 }}
                       animate={{ y: 0, opacity: 1 }}
                       transition={{ delay: 0.2 }}
-                      className="text-5xl font-medium text-white md:text-7xl"
+                      className="max-sm:text-2xl lg:text-5xl font-medium text-white"
                     >
                       {slide.title}
                     </motion.h1>
@@ -70,11 +70,11 @@ return (
                       initial={{ y: 20, opacity: 0 }}
                       animate={{ y: 0, opacity: 1 }}
                       transition={{ delay: 0.4 }}
-                      className="text-lg text-white md:text-4xl"
+                      className="max-sm:text-xl text-white md:text-4xl"
                     >
                       {slide.description}
                     </motion.p>
-                    <button className="relative rounded-lg overflow-hidden mt-5 px-12 py-3 font-semibold bg-white text-black transition duration-1000 ease-in-out hover:text-white group" onClick={handleRedirect}>
+                    <button className="relative rounded-lg overflow-hidden mt-5 max-sm:px-5 max-sm:py-2 max-sm:rounded-xl md:px-12 md:py-3 font-semibold bg-white text-black transition duration-1000 ease-in-out hover:text-white group" onClick={handleRedirect}>
                       <span className="absolute -inset-1 bg-black translate-x-full transition-transform duration-1000 ease-in-out group-hover:translate-x-0"></span>
                       <span className="relative uppercase font-light">View all products</span>
                     </button>
@@ -111,7 +111,7 @@ return (
       >
         <HiOutlineArrowSmallRight size={24} className='text-[#767676] ' />
       </button>
-      <div className="fixed top-[72%] right-6">
+      <div className="fixed top-[72%] right-6 z-[9999]">
         <Link href="https://wa.me/+919324026405" target='_blank'>
           <Image src='/whatsapp.png' alt='Whatsapp' width={100} height={100} />
         </Link>

@@ -7,13 +7,13 @@ const Values = () => {
       {values.map((value) => (
         <div
           key={value.id}
-          className="h-[85vh] p-6 flex flex-col justify-between"
+          className="lg:h-[85vh] p-6 flex flex-col lg:justify-between"
           style={{ backgroundColor: value.bgColor }}
         >
             <div className="">
-          <div className="text-5xl font-bold text-white max-w-xs mx-auto">{value.number}</div>
-          <div className="mt-4 text-5xl font-semibold text-white max-w-xs mx-auto">{value.title}</div>
-          <div className="mt-4 text-white max-w-xs mx-auto">{value.description}</div>
+          <div className="max-sm:text-2xl md:text-5xl font-bold text-white max-w-xs mx-auto">{value.number}</div>
+          <div className="mt-4 max-sm:text-2xl md:text-5xl font-semibold text-white max-w-xs mx-auto">{value.title}</div>
+          <div className="mt-4 sm:tex-lg text-white max-w-xs mx-auto">{value.description}</div>
             </div>
             <div className="">
             <div className="mt-6 text-white max-w-20 mx-auto text-7xl">{value.icon}</div>
