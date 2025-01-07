@@ -27,7 +27,7 @@ return (
                     Maharashtra, India
                 </p>
                 <p className="text-xl max-sm:ps-5 max-sm:pt-3 md:py-10">
-                    <span className="flex items-center gap-1.5"><IoCallOutline /> +91 92241 69123</span>
+                    <span className="flex items-center gap-1.5"><IoCallOutline /> +91 92241 69123 </span>
                     <span className="flex items-center gap-1.5 py-2"><MdOutlinePersonOutline /> +91 93240 26405</span>
                 </p>
                 <p className="text-xl max-sm:ps-5 pb-2 flex items-center gap-2.5"><IoMailOutline />salessuperph@gmail.com</p>

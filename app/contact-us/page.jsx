@@ -58,7 +58,7 @@ const Contact = () => {
           <div className="py-5">
             <p className="text-4xl">Get in touch</p>
             <p className="text-lg pt-3">
-              We’d love to speak with you about your dream floor. <br />
+              We’d love to speak with you about your dream products. <br />
               Fill out our contact form and one of our experts will be in touch.
             </p>
           </div>
@@ -73,7 +73,7 @@ const Contact = () => {
           </div>
           <div className="py-5">
             <p className="text-2xl">CALL US</p>
-            <p className="text-lg pt-0.5">+91 9224169123</p>
+            <p className="text-lg pt-0.5">+91 9224169123 </p>
             <p className="text-lg">+91 9324026405</p>
           </div>
           <div className="py-5">

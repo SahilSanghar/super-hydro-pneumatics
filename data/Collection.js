@@ -1,9 +1,14 @@
 // collectionsData.js
 export const collectionsData = [
     {
-      image: "/c12.jpeg",
-      title: "Pneumatic Pipe",
-      redirectPath: "/categories/compression-tube-fittings",
+      image: "/Pressure-Gauges.jpg",
+      title: "Pressure Gauge",
+      redirectPath: "/categories/pressure-gauge",
+    },
+    {
+      image: "/c43.jpg",
+      title: "Oil Filter",
+      redirectPath: "/categories/oil-filters",
     },
     {
       image: "/c15.jpg",
@@ -11,18 +16,33 @@ export const collectionsData = [
       redirectPath: "/categories/solenoid-coil",
     },
     {
-      image: "/c17.jpg",
-      title: "Fog Nozzle",
-      redirectPath: "/categories/fog-nozzle",
+      image: "/c48.webp",
+      title: "Sensor and Temperature Control",
+      redirectPath: "/categories/sensor-and-temperature-controller",
     },
     {
-      image: "/c22.jpeg",
-      title: "Valve And Cocks",
-      redirectPath: "/categories/valve-and-cocks",
+      image: "/c53.jpg",
+      title: "Lubrication Product",
+      redirectPath: "/categories/lubrication-products",
     },
     {
-      image: "/c23.jpg",
-      title: "Grease Nipple",
-      redirectPath: "/categories/grease-nipple",
+      image: "/Thermoplastic-Pipe.jpg",
+      title: "Hydraulic Hoses",
+      redirectPath: "/categories/hydraulic-hose",
+    },
+    {
+      image: "/c12.jpeg",
+      title: "Pneumatic Pipe",
+      redirectPath: "/categories/compression-tube-fittings",
+    },
+    {
+      image: "/Brass-Bushing.jpg",
+      title: "Brass Fittings",
+      redirectPath: "/categories/brass-pipe-fittings",
+    },
+    {
+      image: "/Air-Blow-Gun.jpg",
+      title: "Air & Pneumatic Blow Gun",
+      redirectPath: "/categories/air-and-pneumatic-blow-gun",
     },
 ];

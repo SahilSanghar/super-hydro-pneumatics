@@ -3,8 +3,6 @@ import Image from 'next/image';
 import Link from 'next/link';
 import React, { useState, useEffect } from 'react';
 import { RxHamburgerMenu, RxCross2 } from "react-icons/rx";
-import { FaHome } from "react-icons/fa";
-import { PiBuildingOffice } from "react-icons/pi";
 import { BiCategory } from "react-icons/bi";
 import { HiOutlineOfficeBuilding } from "react-icons/hi";
 import { RiHome5Line } from "react-icons/ri";
