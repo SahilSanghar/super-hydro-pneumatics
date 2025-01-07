@@ -111,11 +111,6 @@ return (
       >
         <HiOutlineArrowSmallRight size={24} className='text-[#767676] ' />
       </button>
-      <div className="fixed top-[72%] right-6 z-[9999]">
-        <Link href="https://wa.me/+919324026405" target='_blank'>
-          <Image src='/whatsapp.png' alt='Whatsapp' width={100} height={100} />
-        </Link>
-      </div>
     </div>
 )
 }
