@@ -19,7 +19,7 @@ export const metadata = {
   title: "Super Pneumatics & Hydraulics",
   description: "offer products like Air Filter B Type, Air Lubricator, Automobile Hose Clip, Pneumatic Clamp, Spray Gun, Brass Nozzle, etc.",
   icons: {
-    icon: "/logo.jpg", 
+    icon: "/favicon.ico", 
   },
 };
 
@@ -27,7 +27,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
-        <link rel="icon" href="/logo.jpg" type="image/jpeg" />
+        <link rel="icon" href="/favicon.ico" type="image/x-icon" />
       </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
