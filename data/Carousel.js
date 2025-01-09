@@ -1,25 +1,25 @@
 export const slides = [
     {
         id: 1,
-        image: "/s1.jpg",
+        image: "/h1.jpg",
         title: "Air & Pneumatic Air Blow Gun",
         description: "Supplier and Trader",
     },
     {
         id: 2,
-        image: "/s2.jpg",
+        image: "/h2.webp",
         title: "Brass Pneumatic Fittings",
         description: "Supplier and Trader",
     },
     {
         id: 3,
-        image: "/s3.jpg",
+        image: "/h3.webp",
         title: "Buttweld Fitting",
         description: "Supplier and Trader",
     },
     {
         id: 4,
-        image: "/s4.jpg",
+        image: "/h4.jpg",
         title: "Compression Tube Fittings",
         description: "Supplier and Trader",
     },
