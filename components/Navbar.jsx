@@ -52,7 +52,7 @@ const Navbar = () => {
               className="cursor-pointer rounded-full"
             />
           </Link>
-          <span className="max-sm:hidden text-white text-lg lg:text-2xl">Super Hydro Pneumatic</span>
+          <span className="max-sm:hidden text-white text-lg lg:text-2xl">Super Pneumatics & Hydraulics</span>
         </div>
 
         {/* Desktop Navigation */}

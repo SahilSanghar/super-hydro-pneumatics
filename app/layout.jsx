@@ -16,16 +16,19 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "Super Hydro Pneumatic",
+  title: "Super Pneumatics & Hydraulics",
   description: "offer products like Air Filter B Type, Air Lubricator, Automobile Hose Clip, Pneumatic Clamp, Spray Gun, Brass Nozzle, etc.",
   icons: {
-    icon: "/logo.jpg", // Path to your favicon file
+    icon: "/logo.jpg", 
   },
 };
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <head>
+        <link rel="icon" href="/logo.jpg" type="image/jpeg" />
+      </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
