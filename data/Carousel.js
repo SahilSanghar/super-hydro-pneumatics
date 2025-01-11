@@ -7,20 +7,20 @@ export const slides = [
     },
     {
         id: 2,
-        image: "/h2.webp",
-        title: "Brass Pneumatic Fittings",
+        image: "/h2.jpeg",
+        title: "Hydraulic Hoses",
         description: "Supplier and Trader",
     },
     {
         id: 3,
-        image: "/h3.webp",
-        title: "Buttweld Fitting",
+        image: "/h3.jpg",
+        title: "Oil Filter",
         description: "Supplier and Trader",
     },
     {
         id: 4,
-        image: "/h4.jpg",
-        title: "Compression Tube Fittings",
+        image: "/h4.webp",
+        title: "Pneumatic Fittings",
         description: "Supplier and Trader",
     },
 ];

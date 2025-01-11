@@ -13,8 +13,7 @@ const Products = () => {
 return (
     <div className="bg-black text-white">
     <p className="text-center max-sm:text-2xl md:text-5xl py-10">
-        We are innovative <br />
-        & forward-thinking
+        Our Best Work
     </p>
     <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:h-[100vh]">
         <div className="relative bg-white group overflow-hidden">

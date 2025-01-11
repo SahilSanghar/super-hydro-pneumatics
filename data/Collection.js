@@ -21,17 +21,17 @@ export const collectionsData = [
       redirectPath: "/categories/sensor-and-temperature-controller",
     },
     {
-      image: "/c53.jpg",
+      image: "/lubrication.avif",
       title: "Lubrication Product",
       redirectPath: "/categories/lubrication-products",
     },
     {
-      image: "/Thermoplastic-Pipe.jpg",
+      image: "/Hydraulic-Hose.jpg",
       title: "Hydraulic Hoses",
       redirectPath: "/categories/hydraulic-hose",
     },
     {
-      image: "/c12.jpeg",
+      image: "/pneumatic-pipe.jpg",
       title: "Pneumatic Pipe",
       redirectPath: "/categories/compression-tube-fittings",
     },
