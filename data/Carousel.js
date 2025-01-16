@@ -19,7 +19,7 @@ export const slides = [
     },
     {
         id: 4,
-        image: "/h4.webp",
+        image: "/h4.jpg",
         title: "Pneumatic Fittings",
         description: "Supplier and Trader",
     },

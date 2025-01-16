@@ -2,6 +2,7 @@
 import { HiOutlineBadgeCheck } from "react-icons/hi";
 import { BsHandThumbsUp } from "react-icons/bs";
 import { HiOutlineBuildingOffice2 } from "react-icons/hi2";
+import { BiSupport } from "react-icons/bi";
 
 export const values = [
   {
@@ -25,10 +26,10 @@ export const values = [
   {
     id: 3,
     number: "03",
-    title: "Infrastructure",
+    title: "Reliable Support",
     description:
-      "We have a big infrastructure base with different units including procurement, warehouse, quality testing lab, packaging, etc. All the units are well-managed by a team of professionals which is reliable and helps us",
-    icon: <HiOutlineBuildingOffice2 />,
+      "Our commitment doesn’t end with delivering quality products. We provide reliable after-sales support to ensure our clients have a seamless experience with our offerings.",
+    icon: <BiSupport />,
     bgColor: "#171717",
   },
 ];

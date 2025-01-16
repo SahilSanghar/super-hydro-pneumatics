@@ -66,14 +66,14 @@ return (
                     >
                       {slide.title}
                     </motion.h1>
-                    <motion.p
+                    {/* <motion.p
                       initial={{ y: 20, opacity: 0 }}
                       animate={{ y: 0, opacity: 1 }}
                       transition={{ delay: 0.4 }}
                       className="max-sm:text-xl text-white md:text-4xl"
                     >
                       {slide.description}
-                    </motion.p>
+                    </motion.p> */}
                     <button className="relative rounded-lg overflow-hidden mt-5 max-sm:px-5 max-sm:py-2 max-sm:rounded-xl md:px-12 md:py-3 font-semibold bg-white text-black transition duration-1000 ease-in-out hover:text-white group" onClick={handleRedirect}>
                       <span className="absolute -inset-1 bg-black translate-x-full transition-transform duration-1000 ease-in-out group-hover:translate-x-0"></span>
                       <span className="relative uppercase font-light">View all products</span>

@@ -19,23 +19,23 @@ export const metadata = {
   title: "Super Pneumatics & Hydraulics",
   description: "offer products like Air Filter B Type, Air Lubricator, Automobile Hose Clip, Pneumatic Clamp, Spray Gun, Brass Nozzle, etc.",
   icons: {
-    icon: "/favicon.ico", 
+    icon: "/logo.jpg", 
   },
 };
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <head>
+      {/* <head>
         <link rel="icon" href="/favicon.ico" type="image/x-icon" />
-      </head>
+      </head> */}
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         <Navbar />
         {children}
         <div className="fixed top-[72%] right-6 z-[9999]">
-          <Link href="https://wa.me/+919324026405" target='_blank'>
+          <Link href="https://wa.me/+919224169123" target='_blank'>
             <Image src='/whatsapp.png' alt='Whatsapp' width={100} height={100} />
           </Link>
         </div>

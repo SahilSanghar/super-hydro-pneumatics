@@ -17,7 +17,7 @@ export const collectionsData = [
     },
     {
       image: "/c48.webp",
-      title: "Sensor and Temperature Control",
+      title: "FRL",
       redirectPath: "/categories/sensor-and-temperature-controller",
     },
     {
@@ -43,6 +43,11 @@ export const collectionsData = [
     {
       image: "/Air-Blow-Gun.jpg",
       title: "Air & Pneumatic Blow Gun",
+      redirectPath: "/categories/air-and-pneumatic-blow-gun",
+    },
+    {
+      image: "/janatic-air-gun.webp",
+      title: "Janatic Air Gun",
       redirectPath: "/categories/air-and-pneumatic-blow-gun",
     },
 ];

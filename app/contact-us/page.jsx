@@ -30,7 +30,7 @@ const Contact = () => {
         - Email: ${email}
         - Phone: ${number}
         - Message: ${message}`;
-      const whatsappUrl = `https://wa.me/+919324026405?text=${encodeURIComponent(
+      const whatsappUrl = `https://wa.me/+919224169123?text=${encodeURIComponent(
         whatsappMessage
       )}`;
       window.open(whatsappUrl, "_blank");

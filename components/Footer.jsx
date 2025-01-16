@@ -13,7 +13,7 @@ import { IoCallOutline } from "react-icons/io5";
 import { MdOutlinePersonOutline } from "react-icons/md";
 
 const Footer = () => {
-    const phoneNumber = '9324026405'; 
+    const phoneNumber = '+919224169123'; 
     const message = encodeURIComponent('Hello! I’d like to inquire about your services.');
 
 return (
